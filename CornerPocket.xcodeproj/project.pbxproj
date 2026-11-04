@@ -1,0 +1,236 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C0FFEE000000000000000006 /* CornerPocketApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FFEE000000000000000003 /* CornerPocketApp.swift */; };
+		C0FFEE000000000000000007 /* GameWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FFEE000000000000000004 /* GameWebView.swift */; };
+		C0FFEE000000000000000008 /* BundleSchemeHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FFEE000000000000000005 /* BundleSchemeHandler.swift */; };
+		C0FFEE00000000000000000C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0FFEE00000000000000000B /* Assets.xcassets */; };
+		C0FFEE00000000000000000A /* public in Resources */ = {isa = PBXBuildFile; fileRef = C0FFEE000000000000000009 /* public */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C0FFEE00000000000000000E /* CornerPocket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CornerPocket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0FFEE000000000000000003 /* CornerPocketApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerPocketApp.swift; sourceTree = "<group>"; };
+		C0FFEE000000000000000004 /* GameWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameWebView.swift; sourceTree = "<group>"; };
+		C0FFEE000000000000000005 /* BundleSchemeHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleSchemeHandler.swift; sourceTree = "<group>"; };
+		C0FFEE00000000000000000B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C0FFEE00000000000000000D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0FFEE000000000000000009 /* public */ = {isa = PBXFileReference; lastKnownFileType = folder; name = public; path = ../public; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0FFEE000000000000000014 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0FFEE00000000000000000F = {
+			isa = PBXGroup;
+			children = (
+				C0FFEE000000000000000010 /* CornerPocket */,
+				C0FFEE000000000000000009 /* public */,
+				C0FFEE000000000000000011 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C0FFEE000000000000000011 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0FFEE00000000000000000E /* CornerPocket.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0FFEE000000000000000010 /* CornerPocket */ = {
+			isa = PBXGroup;
+			children = (
+				C0FFEE000000000000000003 /* CornerPocketApp.swift */,
+				C0FFEE000000000000000004 /* GameWebView.swift */,
+				C0FFEE000000000000000005 /* BundleSchemeHandler.swift */,
+				C0FFEE00000000000000000B /* Assets.xcassets */,
+				C0FFEE00000000000000000D /* Info.plist */,
+			);
+			path = CornerPocket;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0FFEE000000000000000002 /* CornerPocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0FFEE000000000000000018 /* Build configuration list for PBXNativeTarget "CornerPocket" */;
+			buildPhases = (
+				C0FFEE000000000000000012 /* Sources */,
+				C0FFEE000000000000000014 /* Frameworks */,
+				C0FFEE000000000000000013 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CornerPocket;
+			productName = CornerPocket;
+			productReference = C0FFEE00000000000000000E /* CornerPocket.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0FFEE000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = C0FFEE000000000000000015 /* Build configuration list for PBXProject "CornerPocket" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C0FFEE00000000000000000F;
+			productRefGroup = C0FFEE000000000000000011 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0FFEE000000000000000002 /* CornerPocket */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0FFEE000000000000000013 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0FFEE00000000000000000C /* Assets.xcassets in Resources */,
+				C0FFEE00000000000000000A /* public in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0FFEE000000000000000012 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0FFEE000000000000000006 /* CornerPocketApp.swift in Sources */,
+				C0FFEE000000000000000007 /* GameWebView.swift in Sources */,
+				C0FFEE000000000000000008 /* BundleSchemeHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C0FFEE000000000000000016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C0FFEE000000000000000017 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0FFEE000000000000000019 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = CornerPocket/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.samuelortiz.cornerpocket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C0FFEE00000000000000001A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = CornerPocket/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.samuelortiz.cornerpocket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0FFEE000000000000000015 /* Build configuration list for PBXProject "CornerPocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0FFEE000000000000000016 /* Debug */,
+				C0FFEE000000000000000017 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0FFEE000000000000000018 /* Build configuration list for PBXNativeTarget "CornerPocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0FFEE000000000000000019 /* Debug */,
+				C0FFEE00000000000000001A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0FFEE000000000000000001 /* Project object */;
+}
